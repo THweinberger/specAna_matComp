@@ -14,7 +14,7 @@ function EMAC(Y,N,K,omega,sigma)
 # M = size(Y,1): number of measurements per snapshot
 # L = size(Y,2): number of snapshots
 #
-# Output:.
+# Output:
 # f_hat: estimate of the frequencies of the K sinusoids in [rad]
 
 (M,L) = size(Y)
