@@ -1,7 +1,7 @@
 # spectralAna_matComp
 Spectral analysis of time series data via subspace-based methods and matrix completion.
 
-This repository contains classic subspace-based methods such as MUSIC [[S86]], ESPRIT [[R+89]] and the Matrix Pencil Method [[H+90]] for harmonic retrieval of point sources from complete and equispaced samples. Moreover, we provide modern techniques from matrix completion such as Atomic Norm Minimization, Nuclear Norm Minimization and Iteratively Reweighted Least Squares which can be used as a pre-processing step when the available data is incomplete by finding the solution to an optimization problem. 
+This repository contains classic subspace-based methods such as MUSIC, ESPRIT and the Matrix Pencil Method for harmonic retrieval of point sources from complete and equispaced samples. Moreover, we provide modern techniques from matrix completion such as Atomic Norm Minimization, Nuclear Norm Minimization and Iteratively Reweighted Least Squares which can be used as a pre-processing step when the available data is incomplete by finding the solution to an optimization problem. 
 
 The performance of the different algorithms can be evaluated by running the included scripts, which give empirical results based on several Monte-Carlo simulations in which different parameters of the estimation problem are varied, respectively.
 
@@ -18,12 +18,12 @@ The performance of the different algorithms can be evaluated by running the incl
 * `TLSesprit` (a variant of ESPRIT based on total least squares), see [[B+91]](https://ieeexplore.ieee.org/document/80967).
 
 ## Examples and Usage
-The above listed algorithms can be used as stand-alone. For the correct usage, including the input and output of the individual algorithms, refer to the comments provided in the respective source codes. 
+The above listed algorithms can be used as stand-alone. For the correct usage, including the input and output of the individual algorithms, refer to the comments provided in the respective source codes.
 
 To perform the Monte-Carlo simulations, run the respective files with the prefix 'script'. Additional information is provided in the source codes.
 
 ## About this repository
-##### Developer: 
+##### Developer:
 * Thomas Weinberger (<t.weinberger@tum.de>)
 
 If you have any problems or questions, please contact me via e-mail.
@@ -38,4 +38,3 @@ If you have any problems or questions, please contact me via e-mail.
  - [[R2+89]](https://ieeexplore.ieee.org/document/45540) Rao, Bhaskar D., and KV Sl Hari. "Performance analysis of root-MUSIC." IEEE Transactions on Acoustics, Speech, and Signal Processing 37.12 (1989): 1939-1949.
  - [[K+20]](https://arxiv.org/abs/2009.02905) Kümmerle, Christian, and Claudio M. Verdun. "Escaping Saddle Points in Ill-Conditioned Matrix Completion with a Scalable Second Order Method." arXiv preprint arXiv:2009.02905 (2020).
  - [[B+91]](https://ieeexplore.ieee.org/document/80967) B. Ottersten, M. Viberg and T. Kailath, "Performance analysis of the total least squares ESPRIT algorithm," in IEEE Transactions on Signal Processing, vol. 39, no. 5, pp. 1122-1135, May 1991, doi: 10.1109/78.80967.
- 
