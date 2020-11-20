@@ -10,10 +10,10 @@ This repository contains classic subspace-based methods such as MUSIC [[S86]], E
 * `ESPRIT` (_Atomic Norm Minimization_), see [[R+89]](https://ieeexplore.ieee.org/document/32276).
 * `MPM` (_Matrix Pencil Method_), see [[H+90]](https://ieeexplore.ieee.org/document/56027).
 * `MUSIC` (_Multiple emitter location and signal parameter estimation_), see [[S86]](https://ieeexplore.ieee.org/abstract/document/1143830).
-* `periodogram` (_the classic periodogram estimator for continuous spectral estimation combined with an algorithm for finding local maxima_), see e.g., [[S+05]](http://user.it.uu.se/~ps/SAS-new.pdf)
+* `periodogram` (the classic periodogram estimator for continuous spectral estimation combined with an algorithm for finding local maxima), see e.g., [[S+05]](http://user.it.uu.se/~ps/SAS-new.pdf)
 * `rootMUSIC` (a variant of the MUSIC algorithm based on root finding), see [[R2+89]](https://ieeexplore.ieee.org/document/45540).
 * `structHMirls` (_Iteratively Least Squares for matrix completion_), see [[K+20]](https://arxiv.org/abs/2009.02905).
-* `TLSesprit` a variant of ESPRIT based on total least squares, see [[B+91]](https://ieeexplore.ieee.org/document/80967).
+* `TLSesprit` (a variant of ESPRIT based on total least squares), see [[B+91]](https://ieeexplore.ieee.org/document/80967).
 
 ## Examples and Usage
 The above listed algorithms can be used as stand-alone. For the correct usage, including the input and output of the individual algorithms, refer to the comments provided in the respective source codes. 
