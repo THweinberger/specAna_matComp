@@ -15,7 +15,7 @@ The performance of the different algorithms can be evaluated by running the incl
 * `periodogram` (the classic periodogram estimator for continuous spectral estimation combined with an algorithm for finding local maxima), see e.g., [[S+05]](http://user.it.uu.se/~ps/SAS-new.pdf)
 * `rootMUSIC` (a variant of the MUSIC algorithm based on root finding), see [[R2+89]](https://ieeexplore.ieee.org/document/45540).
 * `structHMirls` (_Iteratively Least Squares for matrix completion_), see [[K+20]](https://arxiv.org/abs/2009.02905).
-* `TLSesprit` (a variant of ESPRIT based on total least squares), see [[B+91]](https://ieeexplore.ieee.org/document/80967).
+* `TLSesprit` (a variant of ESPRIT based on total least squares), see [[O+91]](https://ieeexplore.ieee.org/document/80967).
 
 ## Examples and Usage
 The above listed algorithms can be used as stand-alone. For the correct usage, including the input and output of the individual algorithms, refer to the comments provided in the respective source codes.
@@ -37,4 +37,4 @@ If you have any problems or questions, please contact me via e-mail.
  - [[S+05]](http://user.it.uu.se/~ps/SAS-new.pdf) Stoica, Petre, and Randolph L. Moses. "Spectral analysis of signals." (2005).
  - [[R2+89]](https://ieeexplore.ieee.org/document/45540) Rao, Bhaskar D., and KV Sl Hari. "Performance analysis of root-MUSIC." IEEE Transactions on Acoustics, Speech, and Signal Processing 37.12 (1989): 1939-1949.
  - [[K+20]](https://arxiv.org/abs/2009.02905) Kümmerle, Christian, and Claudio M. Verdun. "Escaping Saddle Points in Ill-Conditioned Matrix Completion with a Scalable Second Order Method." arXiv preprint arXiv:2009.02905 (2020).
- - [[B+91]](https://ieeexplore.ieee.org/document/80967) B. Ottersten, M. Viberg and T. Kailath, "Performance analysis of the total least squares ESPRIT algorithm," in IEEE Transactions on Signal Processing, vol. 39, no. 5, pp. 1122-1135, May 1991, doi: 10.1109/78.80967.
+ - [[O+91]](https://ieeexplore.ieee.org/document/80967) B. Ottersten, M. Viberg and T. Kailath, "Performance analysis of the total least squares ESPRIT algorithm," in IEEE Transactions on Signal Processing, vol. 39, no. 5, pp. 1122-1135, May 1991, doi: 10.1109/78.80967.
