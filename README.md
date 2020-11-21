@@ -9,7 +9,7 @@ The performance of the different algorithms can be evaluated by running the incl
 
 * `ANM` (_Atomic Norm Minimization_), see [[C+14]](https://ieeexplore.ieee.org/abstract/document/6998075).
 * `EMAC` (_Enhanced Matrix Completion / Nuclear Norm Minimization_), see [[C2+14]](https://ieeexplore.ieee.org/document/6867345).
-* `ESPRIT` (_Atomic Norm Minimization_), see [[R+89]](https://ieeexplore.ieee.org/document/32276).
+* `ESPRIT` (_Estimation of Signal Parameters via Rotational Invariance Techniques_), see [[R+89]](https://ieeexplore.ieee.org/document/32276).
 * `MPM` (_Matrix Pencil Method_), see [[H+90]](https://ieeexplore.ieee.org/document/56027).
 * `MUSIC` (_Multiple emitter location and signal parameter estimation_), see [[S86]](https://ieeexplore.ieee.org/abstract/document/1143830).
 * `periodogram` (the classic periodogram estimator for continuous spectral estimation combined with an algorithm for finding local maxima), see e.g., [[S+05]](http://user.it.uu.se/~ps/SAS-new.pdf)
