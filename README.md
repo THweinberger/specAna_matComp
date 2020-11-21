@@ -11,11 +11,11 @@ The performance of the different algorithms can be evaluated by running the incl
 * `EMAC` (_Enhanced Matrix Completion / Nuclear Norm Minimization_), see [[C2+14]](https://ieeexplore.ieee.org/document/6867345).
 * `ESPRIT` (_Estimation of Signal Parameters via Rotational Invariance Techniques_), see [[R+89]](https://ieeexplore.ieee.org/document/32276).
 * `MPM` (_Matrix Pencil Method_), see [[H+90]](https://ieeexplore.ieee.org/document/56027).
-* `MUSIC` (_Multiple emitter location and signal parameter estimation_), see [[S86]](https://ieeexplore.ieee.org/abstract/document/1143830).
+* `MUSIC` (_MUltiple SIgnal Classification algorithm_), see [[S86]](https://ieeexplore.ieee.org/abstract/document/1143830).
 * `periodogram` (the classic periodogram estimator for continuous spectral estimation combined with an algorithm for finding local maxima), see e.g., [[S+05]](http://user.it.uu.se/~ps/SAS-new.pdf)
 * `rootMUSIC` (a variant of the MUSIC algorithm based on root finding), see [[R2+89]](https://ieeexplore.ieee.org/document/45540).
 * `structHMirls` (_Iteratively Reweighted Least Squares for matrix completion_), see [[K+20]](https://arxiv.org/abs/2009.02905).
-* `TLSesprit` (a variant of ESPRIT based on total least squares), see [[O+91]](https://ieeexplore.ieee.org/document/80967).
+* `TLSesprit` (a variant of ESPRIT with an additional total least squares step), see [[O+91]](https://ieeexplore.ieee.org/document/80967).
 
 ## Examples and Usage
 The above listed algorithms can be used as stand-alone. For the correct usage, including the input and output of the individual algorithms, refer to the comments provided in the respective source codes.
