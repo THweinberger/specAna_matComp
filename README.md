@@ -1,4 +1,4 @@
-# spectralAna_matComp
+# specAna_matComp
 Spectral analysis of time series data via subspace-based methods and matrix completion.
 
 This repository contains classic subspace-based methods such as MUSIC, ESPRIT and the Matrix Pencil Method for harmonic retrieval of point sources from complete and equispaced samples. Moreover, we provide modern techniques from matrix completion such as Atomic Norm Minimization, Nuclear Norm Minimization and Iteratively Reweighted Least Squares which can be used as a pre-processing step when the available data is incomplete by finding the solution to an optimization problem. 
