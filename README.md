@@ -14,7 +14,7 @@ The performance of the different algorithms can be evaluated by running the incl
 * `MUSIC` (_Multiple emitter location and signal parameter estimation_), see [[S86]](https://ieeexplore.ieee.org/abstract/document/1143830).
 * `periodogram` (the classic periodogram estimator for continuous spectral estimation combined with an algorithm for finding local maxima), see e.g., [[S+05]](http://user.it.uu.se/~ps/SAS-new.pdf)
 * `rootMUSIC` (a variant of the MUSIC algorithm based on root finding), see [[R2+89]](https://ieeexplore.ieee.org/document/45540).
-* `structHMirls` (_Iteratively Least Squares for matrix completion_), see [[K+20]](https://arxiv.org/abs/2009.02905).
+* `structHMirls` (_Iteratively Reweighted Least Squares for matrix completion_), see [[K+20]](https://arxiv.org/abs/2009.02905).
 * `TLSesprit` (a variant of ESPRIT based on total least squares), see [[O+91]](https://ieeexplore.ieee.org/document/80967).
 
 ## Examples and Usage
